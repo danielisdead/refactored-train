@@ -17,9 +17,11 @@ struct proxy_request{
     int32 distip;
     unsigned char user[8]; 
 };
+typedef struct proxy_request req;
 struct proxy_response{
     int8 vn;
     int8 cd;
     int16 _;
     int32 __;
 };
+typedef struct proxy_response res;
