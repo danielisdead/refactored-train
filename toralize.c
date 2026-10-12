@@ -23,5 +23,6 @@ fprintf(stderr,"usage of %s <host> <port>\n",
         return -1;
     }
     printf("connected to proxy");
+    close(s);
 
 }
